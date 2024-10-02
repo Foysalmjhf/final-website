@@ -108,6 +108,8 @@ function navHighlighter() {
       document.querySelector(".list-darkmode-menu a[href*=" + sectionId + "]").classList.remove("active");
     }
   });
+	hamburger.classList.remove('active');
+	navList.classList.remove('active');
 }
 		
 			
